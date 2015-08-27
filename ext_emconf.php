@@ -3,7 +3,7 @@
 ########################################################################
 # Extension Manager/Repository config file for ext "object_path".
 #
-# Auto generated 22-08-2015 06:40
+# Auto generated 27-08-2015 20:10
 #
 # Manual updates:
 # Only the data in the array - everything else is removed by next
@@ -15,7 +15,7 @@ $EM_CONF[$_EXTKEY] = array(
 	'description' => 'Front-end plugin where u can load a Typoscript Object Path',
 	'category' => 'plugin',
 	'shy' => 0,
-	'version' => '2.0.0',
+	'version' => '2.0.1',
 	'dependencies' => '',
 	'conflicts' => '',
 	'priority' => '',
@@ -23,7 +23,7 @@ $EM_CONF[$_EXTKEY] = array(
 	'TYPO3_version' => '4.5-0.0.0',
 	'PHP_version' => '',
 	'module' => '',
-	'state' => 'beta',
+	'state' => 'stable',
 	'uploadfolder' => 0,
 	'createDirs' => '',
 	'modify_tables' => '',
