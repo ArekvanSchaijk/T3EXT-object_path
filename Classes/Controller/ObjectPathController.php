@@ -1,4 +1,5 @@
 <?php
+namespace Ucreation\ObjectPath\Controller;
 
 /* * *************************************************************
  *  Copyright notice
@@ -24,6 +25,8 @@
  *  This copyright notice MUST APPEAR in all copies of the script!
  * ************************************************************* */
 
+use TYPO3\CMS\Extbase\Mvc\Controller\ActionController;
+
 /**
  * Controller for the Object Path
  *
@@ -31,7 +34,7 @@
  * @copyright Copyright belongs to the respective authors
  * @license http://www.gnu.org/licenses/gpl.html GNU General Public License, version 3 or later
  */
-class Tx_ObjectPath_Controller_ObjectPathController extends Tx_Extbase_MVC_Controller_ActionController {
+class ObjectPathController extends ActionController {
 	
 	/**
 	* Show

@@ -3,16 +3,13 @@ if (!defined('TYPO3_MODE')) {
 	die ('Access denied.');
 }
 
-Tx_Extbase_Utility_Extension::configurePlugin(
-	$_EXTKEY,
+\TYPO3\CMS\Extbase\Utility\ExtensionUtility::configurePlugin(
+	'Ucreation.' . $_EXTKEY,
 	'Pi1',
 	array(
 		'ObjectPath' => 'show'
 	),
-	// non-cacheable actions
 	array(
 		
 	)
 );
-
-?>
