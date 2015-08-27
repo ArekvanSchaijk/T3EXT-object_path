@@ -1,0 +1,27 @@
+<T3DataStructure>
+  <meta>
+    <langDisable>1</langDisable>
+    <langChildren>0</langChildren>
+  </meta>
+  <sheets>
+    <sDEF>
+      <ROOT>
+        <TCEforms>
+          <sheetTitle>LLL:EXT:object_path/Resources/Private/Language/locallang.xml:flexform.sheet.1</sheetTitle>
+        </TCEforms>
+        <type>array</type>
+        <el>
+          <settings.objectPath>
+            <TCEforms>
+              <label>LLL:EXT:object_path/Resources/Private/Language/locallang.xml:flexform.sheet.1.1</label>
+              <config>
+                <type>input</type>
+                <size>30</size>
+              </config>
+            </TCEforms>
+          </settings.objectPath>
+        </el>
+      </ROOT>
+    </sDEF>
+  </sheets>
+</T3DataStructure>

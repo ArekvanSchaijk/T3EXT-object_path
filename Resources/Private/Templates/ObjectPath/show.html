@@ -1,0 +1,8 @@
+<f:if condition="{settings.objectPath}">
+  <f:then>
+    <f:cObject typoscriptObjectPath="{settings.objectPath}" />
+  </f:then>
+  <f:else>
+    <p>You didn't fill in a object path</p>
+  </f:else>
+</f:if>
