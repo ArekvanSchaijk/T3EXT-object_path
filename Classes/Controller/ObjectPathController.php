@@ -28,21 +28,18 @@ namespace Ucreation\ObjectPath\Controller;
 use TYPO3\CMS\Extbase\Mvc\Controller\ActionController;
 
 /**
- * Controller for the Object Path
+ * Class ObjectPathController
  *
- * @version $Id$
- * @copyright Copyright belongs to the respective authors
- * @license http://www.gnu.org/licenses/gpl.html GNU General Public License, version 3 or later
+ * @package Ucreation\ObjectPath
+ * @author Arek van Schaijk <info@ucreation.nl>
  */
 class ObjectPathController extends ActionController {
 	
 	/**
-	* Show
-	*
-	* @return void
-	*/
-	public function showAction() {
-		
-	}
+	 * Show Action
+	 *
+	 * @return void
+	 */
+	public function showAction() {}
+	
 }
-?>
