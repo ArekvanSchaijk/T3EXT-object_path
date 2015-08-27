@@ -7,13 +7,13 @@
     <sDEF>
       <ROOT>
         <TCEforms>
-          <sheetTitle>LLL:EXT:object_path/Resources/Private/Language/locallang.xml:flexform.sheet.1</sheetTitle>
+          <sheetTitle>LLL:EXT:object_path/Resources/Private/Language/locallang_flexforms.xlf:pi1.general</sheetTitle>
         </TCEforms>
         <type>array</type>
         <el>
           <settings.objectPath>
             <TCEforms>
-              <label>LLL:EXT:object_path/Resources/Private/Language/locallang.xml:flexform.sheet.1.1</label>
+              <label>LLL:EXT:object_path/Resources/Private/Language/locallang_flexforms.xlf:pi1.general.objectPath</label>
               <config>
                 <type>input</type>
                 <size>30</size>
