@@ -1,0 +1,8 @@
+<f:if condition="{settings.objectPath}">
+  <f:then>
+    <f:cObject typoscriptObjectPath="{settings.objectPath}" />
+  </f:then>
+  <f:else>
+    <p>{f:translate(key:'no_object_path')}</p>
+  </f:else>
+</f:if>
